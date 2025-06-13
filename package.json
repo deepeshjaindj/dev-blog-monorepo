@@ -1,0 +1,26 @@
+{
+  "name": "dev-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Blog",
+    "Dev",
+    "Tech",
+    "React"
+  ],
+  "author": "Deepesh Jain",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "dependencies": {
+    "pg": "^8.16.0"
+  }
+}

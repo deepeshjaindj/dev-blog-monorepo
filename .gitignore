@@ -1,0 +1,23 @@
+# Node
+node_modules
+.pnpm
+.env
+.env.*.local
+
+# Builds
+dist
+.next
+build
+.cache
+turbo
+.cache/**
+
+# Strapi
+apps/backend/public/uploads
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
